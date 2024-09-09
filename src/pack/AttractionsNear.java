@@ -24,3 +24,4 @@ public class AttractionsNear extends Attrections{
     }
 
 }
+
