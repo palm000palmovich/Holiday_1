@@ -27,6 +27,12 @@ public class Attrections {
     }
 
     public double getRayting() {
+        if (this.rayting < 0){
+            this.name = null;
+            this.price = 0;
+            this.hourWork = null;
+        }
+
         return rayting;
     }
 

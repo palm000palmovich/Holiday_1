@@ -20,7 +20,7 @@ public class RestaurantsNear extends Restaurant{
 
     @Override
     public String toString() {
-        return getKitchen() + "идти " + distance + " км, ехать " + driveTime + " час.";
+        return getKitchen() + " идти " + distance + " км, ехать " + driveTime + " час.";
     }
 
 }

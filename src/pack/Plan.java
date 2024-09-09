@@ -44,6 +44,9 @@ public class Plan {
     }
 
     public int getBudget(){
+        if (this.budget < 0){
+            throw new IllegalArgumentException("Недопустимое значения бюджета!");
+        }
         return this.budget;
     }
 
